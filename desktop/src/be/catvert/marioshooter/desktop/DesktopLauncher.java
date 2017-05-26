@@ -23,11 +23,13 @@ public class DesktopLauncher {
 		config.fullscreen = fullscreen;
 		config.resizable = false;
 
-		config.title = "CatShooter";
+		config.title = "Mario Shooter";
 
 		new LwjglApplication(new Game(), config);
 	}
-
+	/**
+	 * Permet le chargement du fichier de configuration du jeu, config.json
+	 */
 	private static void loadConfig() {
 		try {
 			JsonValue root = new JsonReader().parse(new FileReader("config.json"));

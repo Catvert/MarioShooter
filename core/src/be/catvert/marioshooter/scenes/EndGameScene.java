@@ -19,19 +19,17 @@ import com.kotcrab.vis.ui.widget.VisWindow;
 
 /**
  * Created by arno on 17/05/17.
+ * Scène de fin de partie pour enregistrer son score.
  */
-public class EndGameScene extends Scene {
+public final class EndGameScene extends Scene {
     private int _score;
-
-    private GlyphLayout _scoreLayout = new GlyphLayout();
-
+    private final GlyphLayout _scoreLayout = new GlyphLayout();
     private final boolean _godModeUsed;
 
     public EndGameScene(Game game, int score, boolean godModeUsed) {
         super(game);
 
         _score = score;
-
         _godModeUsed = godModeUsed;
 
         Gdx.audio.newSound(Gdx.files.internal("sounds/gameOver.mp3")).play();
@@ -50,7 +48,7 @@ public class EndGameScene extends Scene {
         playerNameField.setMessageText("Entrer votre nom");
 
         VisTextButton saveButton = new VisTextButton(_godModeUsed ? "GodMode utilisé" :"Sauvegarder");
-        saveButton.setTouchable(_godModeUsed ? Touchable.disabled : Touchable.enabled);
+        saveButton.setTouchable(_godModeUsed ? Touchable.disabled : Touchable.enabled); // Rend le button impossible à cliquer si le mode dieu à été utilisé en pendant la partie.
         saveButton.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {

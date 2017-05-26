@@ -14,13 +14,12 @@ import java.util.ArrayList;
 
 /**
  * Created by arno on 6/05/17.
+ * Classe abstraite permettant d'implémenter une scène.
  */
 public abstract class Scene implements IRenderer, IUpdateable, Disposable {
     private final ArrayList<Entity> _entities = new ArrayList<>();
-
     protected final Game _game;
-
-    private Entity _backgroundEntity;
+    private final Entity _backgroundEntity;
 
     protected Scene(Game game){
         _game = game;
@@ -29,6 +28,9 @@ public abstract class Scene implements IRenderer, IUpdateable, Disposable {
         updateBackground();
     }
 
+    /**
+     * Permet la création de l'UI nécessaire pour la scène.
+     */
     public abstract void initUI(Stage stage);
 
     @Override
@@ -53,8 +55,11 @@ public abstract class Scene implements IRenderer, IUpdateable, Disposable {
         _entities.remove(e);
     }
 
+    /**
+     * Permet de mettre à jour le fond d'écran.
+     */
     protected void updateBackground() {
-        _backgroundEntity.setTexture(_game.UseDefaultBackground ? Game.getTexture("background_1.png") : Game.getTexture("background_2.png"));
+        _backgroundEntity.setTexture(_game.getUseDefaultBackground() ? Game.getTexture("background_1.png") : Game.getTexture("background_2.png"));
     }
 
     @Override

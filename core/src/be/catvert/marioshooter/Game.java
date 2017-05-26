@@ -25,28 +25,39 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Game extends ApplicationAdapter {
-    public static Random Random = new Random();
-    private static AssetManager _assetsManager = new AssetManager();
+public final class Game extends ApplicationAdapter {
+    public static final Random Random = new Random();
+
+    private static final AssetManager _assetsManager = new AssetManager();
     private static Scene _scene;
 
+    private final ArrayList<Score> _scores = new ArrayList<>();
     private SpriteBatch _batch;
     private Stage _stage;
     private BitmapFont _mainFont;
-    private ArrayList<Score> _scores = new ArrayList<>();
-    public boolean UseDefaultBackground = true;
     private Music _mainMusic;
+    private boolean _useDefaultBackground = true;
 
     public static Scene getCurrentScene() {
         return _scene;
     }
 
-    public BitmapFont getMainFont() {
+    public final BitmapFont getMainFont() {
         return _mainFont;
     }
 
-    public ArrayList<Score> getScores() {
+    public final ArrayList<Score> getScores() {
         return _scores;
+    }
+
+    public final boolean getUseDefaultBackground() { return _useDefaultBackground; }
+    public final void setUseDefaultBackground(boolean value) { _useDefaultBackground = value; }
+
+    public final void playMusic() {
+        _mainMusic.play();
+    }
+    public final void stopMusic() {
+        _mainMusic.stop();
     }
 
     @Override
@@ -55,13 +66,11 @@ public class Game extends ApplicationAdapter {
 
         _batch = new SpriteBatch();
 
-        _mainFont = new BitmapFont(Gdx.files.internal("mainFont.fnt"), false);
+        _mainFont = new BitmapFont(Gdx.files.internal("mainFont.fnt"), false); // Charge la police principal du jeu.
 
-        loadAssets(Gdx.files.internal("textures").file().listFiles());
-
-        _assetsManager.load("particles/enemy_1.p", ParticleEffect.class);
-
-        _assetsManager.finishLoading();
+        loadTextures(Gdx.files.internal("textures").file().listFiles()); // Charge toutes les textures du jeu.
+        _assetsManager.load("particles/enemy_1.p", ParticleEffect.class); // Charge le fichier de configuration de la particule utilisé pour l'ennemi 1.
+        _assetsManager.finishLoading(); // Fini de charger toutes les assets.
 
         loadScores();
 
@@ -70,10 +79,10 @@ public class Game extends ApplicationAdapter {
         _mainMusic.setVolume(0.3f);
         _mainMusic.play();
 
-        _stage = new Stage(new ScreenViewport());
+        _stage = new Stage(new ScreenViewport()); // Création d'un stage pour l'UI.
         Gdx.input.setInputProcessor(_stage);
 
-        setScene(new MainMenuScene(this), false, false);
+        setScene(new MainMenuScene(this), false, false); // Chargement du menu principal.
     }
 
     @Override
@@ -104,11 +113,14 @@ public class Game extends ApplicationAdapter {
         VisUI.dispose(true);
     }
 
-    private void loadAssets(File[] files) {
+    /**
+     * Charge toutes les textures d'un répertoire, récursivement.
+     */
+    private void loadTextures(File[] files) {
         try {
             for (File file : files) {
                 if (file.isDirectory()) {
-                    loadAssets(file.listFiles());
+                    loadTextures(file.listFiles());
                 } else {
                     System.out.println("Chargement de l'asset : " + file.getPath());
                     _assetsManager.load(file.getPath(), Texture.class);
@@ -119,6 +131,9 @@ public class Game extends ApplicationAdapter {
         }
     }
 
+    /**
+     * Sauvegarde les scores dans le fichier scores.json
+     */
     private void saveScores() {
         try {
             JsonWriter writer = new JsonWriter(new FileWriter(Gdx.files.internal("scores.json").path()));
@@ -149,6 +164,9 @@ public class Game extends ApplicationAdapter {
         }
     }
 
+    /**
+     * Charge tout les scores depuis le fichier scores.json
+     */
     private void loadScores() {
         try {
             JsonValue root = new JsonReader().parse(Gdx.files.internal("scores.json"));
@@ -166,11 +184,20 @@ public class Game extends ApplicationAdapter {
         }
     }
 
+    /**
+     * Ajoute un nouveau score au jeu.
+     */
     public void addNewScore(Score score) {
         _scores.add(score);
         _scores.sort((sc1, sc2) -> Integer.compare(sc2.getScore(), sc1.getScore()));
     }
 
+    /**
+     * Charge une nouvelle scène.
+     * @param scene la scène à charger.
+     * @param disposeLastScene Disposer la dernière scène charger ?
+     * @param clearStage Supprimer tout les contrôles du stage ?
+     */
     public void setScene(Scene scene, boolean disposeLastScene, boolean clearStage) {
         if (disposeLastScene)
             _scene.dispose();
@@ -181,14 +208,10 @@ public class Game extends ApplicationAdapter {
         _scene.initUI(_stage);
     }
 
-    public void playMusic() {
-        _mainMusic.play();
-    }
-
-    public void stopMusic() {
-        _mainMusic.stop();
-    }
-
+    /**
+     * Cherche une texture depuis l'assetManager et retourne la texture si elle existe sinon retourne une texture 1x1.
+     * @param file le nom du fichier présent dans le répertoire textures/
+     */
     public static Texture getTexture(String file) {
         if (_assetsManager.isLoaded("textures/" + file))
             return _assetsManager.get("textures/" + file);
@@ -198,6 +221,10 @@ public class Game extends ApplicationAdapter {
         }
     }
 
+    /**
+     * Cherche le fichier de configuration d'une particule depuis l'assetManager et retourne la particule si elle existe sinon retourne une instance vide est retournée.
+     * @param file le nom du fichier présent dans le répertoire textures/
+     */
     public static ParticleEffect getParticleEffect(String file) {
         if(_assetsManager.isLoaded("particles/" + file))
             return _assetsManager.get("particles/" + file);

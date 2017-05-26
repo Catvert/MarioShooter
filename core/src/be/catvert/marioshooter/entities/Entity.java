@@ -11,11 +11,14 @@ import com.badlogic.gdx.utils.Disposable;
 
 /**
  * Created by arno on 6/05/17.
+ * Classe permettant de créé une entité.
+ * Chaque entité à :
+ *  - Une texture, mais qui peut-être null si elle n'est pas requise.
+ *  - Un rectangle lui définissant une position dans l'espace ainsi qu'une taille.
  */
 public class Entity implements IUpdateable, IRenderer, Disposable {
-
     protected Texture _texture = null;
-    protected Rectangle _rectangle;
+    protected final Rectangle _rectangle;
 
     public void setTexture(Texture texture) { _texture = texture; }
 
@@ -23,10 +26,6 @@ public class Entity implements IUpdateable, IRenderer, Disposable {
 
     public Entity(Rectangle rectangle) {
         this(null, rectangle);
-    }
-
-    public Entity(Texture texture, Vector2 position) {
-        this(texture, new Rectangle(position.x, position.y, texture.getWidth(), texture.getHeight()));
     }
 
     public Entity(Texture texture, Rectangle rectangle) {
@@ -43,6 +42,9 @@ public class Entity implements IUpdateable, IRenderer, Disposable {
             batch.draw(_texture, _rectangle.x, _rectangle.y, _rectangle.width, _rectangle.height);
     }
 
+    /**
+     * Permet de supprimer cette entité de la scène active.
+     */
     public void destroyFromCurrentScene() {
         Game.getCurrentScene().removeEntity(this);
     }

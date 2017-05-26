@@ -9,16 +9,18 @@ import com.badlogic.gdx.math.Rectangle;
  * Created by arno on 18/05/17.
  */
 public abstract class Enemy extends Entity {
-    private Player _player;
+    private final Player _player;
 
-    private int _pointOnDie = 1;
+    private final int _pointOnDie; // Score donné en mourrant.
+    private final int _bulletOnDie;
 
-    protected Enemy(Texture texture, Rectangle rectangle, Player player, int pointOnDie) {
+    protected Enemy(Texture texture, Rectangle rectangle, Player player, int pointOnDie, int bulletOnDie) {
         super(texture, rectangle);
 
         _player = player;
 
         _pointOnDie = pointOnDie;
+        _bulletOnDie = bulletOnDie;
     }
 
     @Override
@@ -31,8 +33,12 @@ public abstract class Enemy extends Entity {
         }
     }
 
+    /**
+     * Permet de tuer cette ennemi et d'ajouter le score au joueur ainsi que des munitions.
+     */
     public void kill() {
         _player.addScorePoint(_pointOnDie);
+        _player.addBullets(_bulletOnDie);
         destroyFromCurrentScene();
     }
 

@@ -11,16 +11,14 @@ import java.util.ArrayList;
 
 /**
  * Created by arno on 18/05/17.
+ * Bullet du joueur, une boule de feu.
  */
 public class Bullet extends Entity {
-    private Vector2 _moveSpeed;
-
-    private Rectangle _screenRect = new Rectangle(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-
+    private final Vector2 _moveSpeed;
+    private final Rectangle _screenRect = new Rectangle(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
     private final ArrayList<Enemy> _enemies;
-
-    private TextureAtlas _textureAtlas;
-    private Animation<TextureAtlas.AtlasRegion> _animation;
+    private final TextureAtlas _textureAtlas;
+    private final Animation<TextureAtlas.AtlasRegion> _animation;
     private float _elapsedTime = 0f;
 
     public Bullet(Vector2 startPosition, Vector2 moveSpeed, ArrayList<Enemy> enemies) {
@@ -32,7 +30,6 @@ public class Bullet extends Entity {
 
         _textureAtlas = new TextureAtlas(Gdx.files.internal("anim/fireball.atlas"));
         _animation = new Animation<>(1f/15f, _textureAtlas.getRegions());
-
     }
 
     @Override

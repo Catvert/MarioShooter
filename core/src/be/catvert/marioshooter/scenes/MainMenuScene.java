@@ -19,6 +19,7 @@ import com.kotcrab.vis.ui.widget.VisWindow;
 
 /**
  * Created by arno on 6/05/17.
+ * Menu principal
  */
 public class MainMenuScene extends Scene {
     private final float _posBestScore;
@@ -69,7 +70,7 @@ public class MainMenuScene extends Scene {
         useOtherBackgroundCB.addListener(new ChangeListener() {
             @Override
             public void changed(ChangeEvent event, Actor actor) {
-                _game.UseDefaultBackground = !useOtherBackgroundCB.isChecked();
+                _game.setUseDefaultBackground(!useOtherBackgroundCB.isChecked());
                 updateBackground();
             }
         });
