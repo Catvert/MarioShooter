@@ -7,74 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee4ec8d6-8005-4202-b7ba-d849cb7ad821" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/assets/sounds/emptyBullet.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_Blooper$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_Blooper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_Bullet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_FlyGuy.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/core_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/core_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/desktop_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/desktop_test.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/CatShooter.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/anim/fireball.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/anim/fireball.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/scores.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/background_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/background_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/enemy_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/enemy_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/enemy_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/heartBroken.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/CatShooter_jar/textures/player.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CatShooter.iml" afterPath="$PROJECT_DIR$/MarioShooter.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_1.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Bullet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_2.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_FlyGuy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_3.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Blooper.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/assets/particles/enemy_1 (autre copie).p" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/assets/particles/enemy_1.p" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/assets/textures/enemy_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/assets/textures/enemy_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/assets/textures/enemy_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/MarioShooter_jar/textures/enemy_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/MarioShooter_jar/textures/enemy_2.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/Game.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/Score.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/Score.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Bullet.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Bullet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Entity.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Entity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/HeartUI.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/HeartUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Player.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/EndGameScene$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/EndGameScene$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/EndGameScene$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/EndGameScene$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/EndGameScene.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/EndGameScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/GameScene$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/GameScene$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/GameScene.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/GameScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene$3.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene$4.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/MainMenuScene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/Scene.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/scenes/Scene.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/build/classes/main/be/catvert/marioshooter/desktop/DesktopLauncher.class" afterPath="$PROJECT_DIR$/desktop/build/classes/main/be/catvert/marioshooter/desktop/DesktopLauncher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_Blooper.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_Blooper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_Bullet.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_Bullet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_FlyGuy.class" afterPath="$PROJECT_DIR$/core/build/classes/main/be/catvert/marioshooter/entities/Enemy_FlyGuy.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CatShooter.ipr" afterPath="$PROJECT_DIR$/CatShooter.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CatShooter.iws" afterPath="$PROJECT_DIR$/CatShooter.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/assets/config.json" afterPath="$PROJECT_DIR$/core/assets/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/assets/scores.json" afterPath="$PROJECT_DIR$/core/assets/scores.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/Game.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/Score.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/Score.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Bullet.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Bullet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Entity.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Entity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/HeartUI.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/HeartUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Player.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/EndGameScene.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/EndGameScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/GameScene.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/GameScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/MainMenuScene.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/MainMenuScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/Scene.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/Scene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/desktop.iml" afterPath="$PROJECT_DIR$/desktop/desktop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/src/be/catvert/marioshooter/desktop/DesktopLauncher.java" afterPath="$PROJECT_DIR$/desktop/src/be/catvert/marioshooter/desktop/DesktopLauncher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Blooper.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Blooper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Bullet.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Bullet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_FlyGuy.java" afterPath="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_FlyGuy.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -148,38 +99,8 @@
       <file leaf-file-name="GameScene.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/GameScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2496">
+            <state relative-caret-position="631">
               <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenuScene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/MainMenuScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EndGameScene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/EndGameScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -188,55 +109,9 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3978">
-              <caret line="186" column="7" lean-forward="false" selection-start-line="186" selection-start-column="7" selection-end-line="186" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="71" column="51" lean-forward="false" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/Scene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Score.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/Score.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-              <folding>
-                <element signature="e#3002#3003#0" expanded="true" />
-                <element signature="e#3050#3051#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enemy_Blooper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Blooper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-              <folding>
-                <element signature="e#866#1000#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -244,8 +119,28 @@
       <file leaf-file-name="Enemy_FlyGuy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_FlyGuy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="25" column="76" lean-forward="false" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+            <state relative-caret-position="338">
+              <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enemy_Bullet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Bullet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enemy_Blooper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Blooper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-293">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -842,7 +737,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8974434804000" />
+        <entry key="$PROJECT_DIR$" value="8974661149000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3858248964" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1026,14 +922,15 @@
         <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/HeartUI.java" />
         <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/EndGameScene.java" />
         <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/Scene.java" />
-        <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/Game.java" />
         <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/Score.java" />
         <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/GameScene.java" />
         <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Player.java" />
         <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy.java" />
-        <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Bullet.java" />
-        <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_FlyGuy.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Blooper.java" />
+        <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Bullet.java" />
+        <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/Game.java" />
+        <option value="$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_FlyGuy.java" />
       </list>
     </option>
   </component>
@@ -1054,7 +951,21 @@
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
-      <profile-state />
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -1076,14 +987,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CatShooter" />
+              <option name="myItemId" value="MarioShooter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1093,7 +1002,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CatShooter" />
+              <option name="myItemId" value="MarioShooter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1107,7 +1016,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CatShooter" />
+              <option name="myItemId" value="MarioShooter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1119,8 +1028,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarioShooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarioShooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarioShooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarioShooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marioshooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarioShooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MarioShooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marioshooter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1133,8 +1110,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/assets/textures" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -1590,11 +1567,13 @@
       <workItem from="1495798108658" duration="15000" />
       <workItem from="1495798136581" duration="5389000" />
       <workItem from="1495803620664" duration="492000" />
+      <workItem from="1495813763218" duration="67000" />
+      <workItem from="1495965439517" duration="488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11247000" />
+    <option name="totallyTimeSpent" value="11802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="20" width="1920" height="1060" extended-state="6" />
@@ -1652,30 +1631,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/GameScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/MainMenuScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/EndGameScene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1712,10 +1667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="27" column="58" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding>
-            <element signature="e#3002#3003#0" expanded="true" />
-            <element signature="e#3050#3051#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1731,10 +1683,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#866#1000#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1855,21 +1804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Bullet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_FlyGuy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="25" column="76" lean-forward="false" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/Score.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1878,21 +1812,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-683">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.6/7d903ecd6b0df2ec334814b8e70618e4c93fd37c/gdx-1.9.6-sources.jar!/com/badlogic/gdx/assets/AssetManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="400" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding>
-            <element signature="e#3002#3003#0" expanded="true" />
-            <element signature="e#3050#3051#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3978">
-          <caret line="186" column="7" lean-forward="false" selection-start-line="186" selection-start-column="7" selection-end-line="186" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1905,18 +1852,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/GameScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/EndGameScene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1929,22 +1876,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy.java">
+    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/scenes/GameScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="631">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="71" column="51" lean-forward="false" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_FlyGuy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/be/catvert/marioshooter/entities/Enemy_Blooper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="e#866#1000#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-293">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

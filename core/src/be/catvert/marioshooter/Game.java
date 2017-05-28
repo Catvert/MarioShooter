@@ -69,7 +69,7 @@ public final class Game extends ApplicationAdapter {
         _mainFont = new BitmapFont(Gdx.files.internal("mainFont.fnt"), false); // Charge la police principal du jeu.
 
         loadTextures(Gdx.files.internal("textures").file().listFiles()); // Charge toutes les textures du jeu.
-        _assetsManager.load("particles/enemy_1.p", ParticleEffect.class); // Charge le fichier de configuration de la particule utilisé pour l'ennemi 1.
+        _assetsManager.load("particles/enemy_bullet.p", ParticleEffect.class); // Charge le fichier de configuration de la particule utilisé pour l'ennemi 1.
         _assetsManager.finishLoading(); // Fini de charger toutes les assets.
 
         loadScores();

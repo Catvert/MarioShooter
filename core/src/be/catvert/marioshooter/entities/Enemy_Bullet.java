@@ -15,9 +15,9 @@ public final class Enemy_Bullet extends Enemy {
     private final ParticleEffect _particle;
 
     public Enemy_Bullet(Player player) {
-        super(Game.getTexture("enemy_1.png"), getRandomPosition(70, 45), player, 1, 1);
+        super(Game.getTexture("enemy_bullet.png"), getRandomPosition(70, 45), player, 1, 1);
 
-       _particle = Game.getParticleEffect("enemy_1.p");
+       _particle = Game.getParticleEffect("enemy_bullet.p");
        _particle.setPosition(_rectangle.x + _rectangle.width + 10, _rectangle.y + _rectangle.height / 2);
     }
 

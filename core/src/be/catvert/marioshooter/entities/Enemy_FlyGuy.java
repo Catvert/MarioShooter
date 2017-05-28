@@ -12,7 +12,7 @@ public final class Enemy_FlyGuy extends Enemy {
     private boolean _goDown = Game.Random.nextBoolean(); // Permet de savoir si le blooper va vers le bas ou le haut.
 
     public Enemy_FlyGuy(Player player) {
-        super(Game.getTexture("enemy_2.png"), getRandomPosition(50, 50), player, 5, 3);
+        super(Game.getTexture("enemy_flyguy.png"), getRandomPosition(50, 50), player, 5, 3);
     }
 
     @Override

@@ -16,7 +16,7 @@ public final class Enemy_Blooper extends Enemy {
     private float _moveSpeedX = 5f, _moveSpeedY = 5f;
 
     public Enemy_Blooper(Player player) {
-        super(Game.getTexture("enemy_3.png"), getRandomPosition(25, 50), player, 20, 10);
+        super(Game.getTexture("enemy_blooper.png"), getRandomPosition(25, 50), player, 20, 10);
 
         // Timer démarrant après 2 sec avec une interval de 1 sec permettant d'inverser la visibilité du blooper.
         new Timer().scheduleTask(new Timer.Task() {
